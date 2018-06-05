@@ -1,6 +1,7 @@
 body{
 
 }
+
 body>div#masque, body>div#carte{
     position: absolute;
     /* width: 900px; 6cartes*/
@@ -9,10 +10,12 @@ body>div#masque, body>div#carte{
 body>div#masque>ul>li, body>div#carte>ul>li{
     display: inline-block;
     margin: 0 auto;
-    opacity 0.99;
 }
-div#masque li.myselect{
+div#carte img.myselect{
+    /* visibility: visible !important; */
+    opacity: 1;
+}
+div#carte img{
     /* visibility: hidden !important; */
-    transition: opacity 1s ease;
-    opacity: 0;
+    opacity: 0.0;
 }
