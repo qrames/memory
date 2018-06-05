@@ -1,3 +1,18 @@
 body{
-    
+
+}
+body>div#masque, body>div#carte{
+    position: absolute;
+    /* width: 900px; 6cartes*/
+    width: 100%;
+}
+body>div#masque>ul>li, body>div#carte>ul>li{
+    display: inline-block;
+    margin: 0 auto;
+    opacity 0.99;
+}
+div#masque li.myselect{
+    /* visibility: hidden !important; */
+    transition: opacity 1s ease;
+    opacity: 0;
 }
