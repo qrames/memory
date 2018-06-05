@@ -2,20 +2,20 @@ body{
 
 }
 
-body>div#masque, body>div#carte{
+body>ul#masque, body>ul#carte{
     position: absolute;
     /* width: 900px; 6cartes*/
     width: 100%;
 }
-body>div#masque>ul>li, body>div#carte>ul>li{
+body>ul#masque>li, body>ul#carte>li{
     display: inline-block;
     margin: 0 auto;
 }
-div#carte img.myselect{
+ul#carte img.myselect{
     /* visibility: visible !important; */
     opacity: 1;
 }
-div#carte img{
+ul#carte img{
     /* visibility: hidden !important; */
     opacity: 0.0;
 }
