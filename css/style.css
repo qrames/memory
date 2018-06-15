@@ -1,21 +1,4 @@
-body{
-
-}
-
-body>ul#masque, body>ul#carte{
-    position: absolute;
-    /* width: 900px; 6cartes*/
-    width: 100%;
-}
-body>ul#masque>li, body>ul#carte>li{
-    display: inline-block;
-    margin: 0 auto;
-}
-ul#carte img.myselect{
-    /* visibility: visible !important; */
-    opacity: 1;
-}
-ul#carte img{
-    /* visibility: hidden !important; */
-    opacity: 0.0;
+body {
+    display: flex;
+    flex-wrap: wrap;
 }
